@@ -43,7 +43,9 @@ GameObject:
   - component: {fileID: 1625429810957990304}
   - component: {fileID: 4332594104964592201}
   - component: {fileID: 5030100257178388136}
-  - component: {fileID: -847114949211156799}
+  - component: {fileID: -1949254533922136851}
+  - component: {fileID: -6191542769109403996}
+  - component: {fileID: 4934603514538252131}
   m_Layer: 0
   m_Name: Table
   m_TagString: Barrier
@@ -146,7 +148,55 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: d6d2f7aefe8e8cb4aac4725d78e70fde, type: 3}
---- !u!114 &-847114949211156799
+--- !u!54 &-1949254533922136851
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8014036971784306386}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!65 &-6191542769109403996
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8014036971784306386}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Size: {x: 2.0239131, y: 0.8910112, z: 1.2415049}
+  m_Center: {x: -0.00042045125, y: 0.4455056, z: 0.014463697}
+--- !u!114 &4934603514538252131
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -155,6 +205,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 8014036971784306386}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3cc7095268367640ac84b18169573d5, type: 3}
+  m_Script: {fileID: 11500000, guid: ec9c5866e84f204448291fbe09b713bd, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnviromentMovement
+  m_EditorClassIdentifier: Assembly-CSharp::EnvironmentMovement

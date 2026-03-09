@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 7644925685743778662}
   - component: {fileID: 3837454193001908841}
   - component: {fileID: 1503891715822154554}
-  - component: {fileID: -8274606782819144296}
+  - component: {fileID: 830701564726960297}
+  - component: {fileID: 3499067325324493768}
   m_Layer: 0
   m_Name: Potion
   m_TagString: Potion
@@ -114,7 +115,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 1f3ab9073fa6aed4bbec9d3a54b89a27, type: 3}
---- !u!114 &-8274606782819144296
+--- !u!114 &830701564726960297
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -123,6 +124,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1296444170029521519}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3cc7095268367640ac84b18169573d5, type: 3}
+  m_Script: {fileID: 11500000, guid: de82417cb96f0344babf3360cdf14c7a, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnviromentMovement
+  m_EditorClassIdentifier: Assembly-CSharp::Potion
+  verticalSpeed: 0.5
+--- !u!114 &3499067325324493768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296444170029521519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec9c5866e84f204448291fbe09b713bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnvironmentMovement

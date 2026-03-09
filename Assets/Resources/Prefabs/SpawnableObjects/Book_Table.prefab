@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2982093311942191242}
   - component: {fileID: 3368097637173449541}
   - component: {fileID: -4881397975957862367}
+  - component: {fileID: -2627552348208992963}
   m_Layer: 0
   m_Name: Book_Table
   m_TagString: Barrier
@@ -47,7 +48,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 9133242917147169349}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3cc7095268367640ac84b18169573d5, type: 3}
+  m_Script: {fileID: 11500000, guid: ec9c5866e84f204448291fbe09b713bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnviromentMovement
 --- !u!64 &-4881397975957862367
@@ -72,6 +73,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!54 &-2627552348208992963
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9133242917147169349}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1001 &1089566969235404285
 PrefabInstance:
   m_ObjectHideFlags: 0

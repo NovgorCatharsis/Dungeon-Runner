@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 3770924681411277387}
   - component: {fileID: 4031902545585363002}
   - component: {fileID: 5364512601293629222}
-  - component: {fileID: -7342865008828740706}
+  - component: {fileID: -6381331433913557736}
+  - component: {fileID: 8609631149054774953}
   m_Layer: 0
   m_Name: Column
   m_TagString: Barrier
@@ -114,7 +115,34 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 1bff7d79ae1b141448f2db1e49eb3c81, type: 3}
---- !u!114 &-7342865008828740706
+--- !u!54 &-6381331433913557736
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3713104444964819695}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &8609631149054774953
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -123,6 +151,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 3713104444964819695}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3cc7095268367640ac84b18169573d5, type: 3}
+  m_Script: {fileID: 11500000, guid: ec9c5866e84f204448291fbe09b713bd, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnviromentMovement
+  m_EditorClassIdentifier: Assembly-CSharp::EnvironmentMovement

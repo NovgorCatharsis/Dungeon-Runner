@@ -1,0 +1,8 @@
+:root {
+}
+
+.text {
+    font-size: 48px;
+    -unity-font-definition: resource("UI/Nunito-ExtraBold");
+    color: rgb(255, 255, 255);
+}

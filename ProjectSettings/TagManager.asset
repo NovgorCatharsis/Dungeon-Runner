@@ -8,6 +8,7 @@ TagManager:
   - ObjectSpawnpoint
   - Potion
   - Barrier
+  - RemoveTrigger
   layers:
   - Default
   - TransparentFX
